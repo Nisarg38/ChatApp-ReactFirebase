@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ChatApp-ReactFirebase/static/css/main.8274ef3c.chunk.css",
+    "main.js": "/ChatApp-ReactFirebase/static/js/main.e9ccdbbd.chunk.js",
+    "main.js.map": "/ChatApp-ReactFirebase/static/js/main.e9ccdbbd.chunk.js.map",
+    "runtime-main.js": "/ChatApp-ReactFirebase/static/js/runtime-main.527cdacb.js",
+    "runtime-main.js.map": "/ChatApp-ReactFirebase/static/js/runtime-main.527cdacb.js.map",
+    "static/js/2.273ee887.chunk.js": "/ChatApp-ReactFirebase/static/js/2.273ee887.chunk.js",
+    "static/js/2.273ee887.chunk.js.map": "/ChatApp-ReactFirebase/static/js/2.273ee887.chunk.js.map",
+    "index.html": "/ChatApp-ReactFirebase/index.html",
+    "static/css/main.8274ef3c.chunk.css.map": "/ChatApp-ReactFirebase/static/css/main.8274ef3c.chunk.css.map",
+    "static/js/2.273ee887.chunk.js.LICENSE.txt": "/ChatApp-ReactFirebase/static/js/2.273ee887.chunk.js.LICENSE.txt",
+    "static/media/blob.79de7498.svg": "/ChatApp-ReactFirebase/static/media/blob.79de7498.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.527cdacb.js",
+    "static/js/2.273ee887.chunk.js",
+    "static/css/main.8274ef3c.chunk.css",
+    "static/js/main.e9ccdbbd.chunk.js"
+  ]
+}
