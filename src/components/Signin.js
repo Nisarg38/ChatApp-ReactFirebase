@@ -4,9 +4,30 @@ import { auth } from "../firebase.js";
 import { Button } from "@material-ui/core";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import transitions from "@material-ui/core/styles/transitions";
+import b from "../images/blob.svg";
 
-const blob = styled.div`
+const Blob = styled(motion.div)`
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: b;
+  font-size: 2rem;
+`;
+
+const Image = styled(motion.img)`
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%
+height: 100%;
+`;
+
+const Text = styled(motion.div)`
+  position: absolute;
+
+  font-size: 2rem;
 `;
 
 function Signin() {
@@ -21,14 +42,36 @@ function Signin() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 8000);
+    }, 0);
   }, []);
 
   return (
     <>
       {loading ? (
         <>
-          <blob></blob>
+          {/*
+            <Blob animate={{}}>
+            <Image
+              src={b}
+              alt="planet"
+              initial={{ scale: 0 }}
+              animate={{
+                scale: 30,
+                transition: { duration: 2 },
+              }}
+            />
+          </Blob>
+          <h1
+            styles={{
+              position: "absolute",
+              marignBotton: "2rem",
+              margin: "0",
+              padding: "0",
+            }}
+          >
+            Hi, Thanks for visiting my website!!
+          </h1>
+        */}
         </>
       ) : (
         <>
